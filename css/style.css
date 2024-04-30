@@ -1,0 +1,255 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    /* box-sizing: border-box; */
+}
+
+
+
+button:hover {
+  background-color: rgb(251, 138, 17);
+   /* border: 2em; */
+  padding: 12px 28px; 
+  text-align: center; 
+  border-radius: 4px;
+  /* border: 2px solid rgb(0, 0, 0); */
+  color: black;
+  transition-duration: 0.4s;
+  cursor: pointer;
+  
+}
+button {
+  background-color: rgba(94, 94, 94, 0.427);
+   border: 2em;
+  padding: 12px 28px; 
+  text-align: center; 
+  border-radius: 4px;
+  /* border: 2px solid rgb(0, 0, 0); */
+  color: black;
+  transition-duration: 0.4s;
+  cursor: pointer;
+}
+a:link
+{
+  text-decoration: none;
+  background-color: transparent;
+  color: black;
+}
+a:visited
+{color: black;
+background-color: transparent;
+text-decoration: none;}
+
+
+  
+header{
+    background-color:white;
+    color: black;
+    font-size: 2rem;
+}
+
+.HeaderInfo{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+
+
+ul{
+    display: flex;
+    list-style: none;
+    padding: 3em 0em;
+    margin: auto;
+}
+
+li{
+    margin: 0em 3em;
+}
+
+/* .BIGWORD{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: white;
+  padding: 5em 5em;
+  font-size: 3rem;
+} */
+
+.BackgroundImage{
+  display: flex;
+    background-image:url("../Images/graf\ copy.jpg");
+    height: 70em;
+    width: 100%;
+    justify-content: flex-end;
+    align-items: center;
+}
+.BackgroundTextBox{
+  display: flex;
+  background-color: white;
+  height: 60em;
+  width: 40em;
+  color: black;
+  padding: 2em 2em;
+  margin: 5em 5em;
+  justify-content: center;
+}
+.TextProperties{
+  display: flex;
+  font-size: 3rem;
+  flex-direction: column;
+  margin: 2em 1em;
+}
+
+
+.WorksSection{
+    display: flex;
+    color: black;
+    background-color: white;
+    /* height: 20em; */
+    /* justify-content: center;
+    align-items: center; */
+    /* font-size: xx-large; */
+}
+
+.quoteintro{
+  display: flex;
+  background-color: black;
+  color: white;
+justify-content: center;
+font-weight: bold;
+font-size: 5rem;
+}
+.References{
+   display: flex; 
+  /* background-image: url("../Images/NewReferencePhoto.jpg"); */
+  background-color: lightgrey;
+  /* height: 14em; */
+  padding: 5em 5em;
+  /* justify-content: space-evenly; */
+  font-size: 1.5rem;
+  flex-direction: row;
+  /* background-position: center;
+  background-repeat: no-repeat; */
+}
+
+/* .grid-container{
+  display: grid;
+  gap: 50px;
+  grid-template-columns: auto auto ;
+  background-color: transparent;
+  padding: 5em;
+}
+
+.grid-item{
+  display: flex;
+background-color: rgb(255, 255, 255);
+color: rgb(0, 0, 0);
+ height: 5em; 
+padding: 20px;
+ margin:10px; 
+justify-content: center;
+align-items: center;
+} */
+
+   .ReferenceBox{
+/* ß */
+background-color: rgb(255, 255, 255);
+color: rgb(0, 0, 0);
+padding: 2em;
+align-items: center;
+margin: 1em;
+justify-content: center;
+width: 20em;
+}
+.ReferenceBox2{
+/* display: flex; */
+background-color: rgb(255, 255, 255);
+color: rgb(0, 0, 0);
+padding: 2em;
+align-items: center;
+margin: 1em;
+justify-content: center;
+}
+.ReferenceBox3{
+/* display: flex; */
+background-color: rgb(255, 255, 255);
+color: rgb(0, 0, 0);
+padding: 2em;
+align-items: center;
+margin: 1em;
+justify-content: center;
+}
+
+.ReferenceBox4{
+  /* display: flex; */
+background-color: rgb(255, 255, 255);
+color: rgb(0, 0, 0);
+padding: 2em;
+align-items: center;
+margin: 1em;
+justify-content: center;
+}   
+
+.ContactSection{
+  display: flex;
+    color: rgb(0, 0, 0);
+    background-color: rgb(255, 255, 255);
+    /* height: 25em; */
+    flex-direction: column;
+    /* margin: 5em 5em; */
+    /* padding: 5em 5em; */
+    align-items: center;
+}
+
+footer{
+  display: flex;
+  background-color: rgb(251, 138, 17);
+  color: rgb(0, 0, 0);
+  justify-content: center;
+  padding: 2em 0em;
+}
+
+.PhotoIntro{
+  display: flex;
+  background-color: rgb(0, 0, 0);
+  height: 2em;
+  align-items: center;
+  justify-content: center;
+}
+
+.BackgroundImage2{
+  display: flex;
+    background-image:url("../Images/2nd\ backrounddark.jpg");
+    height: 75em;
+    /* width: 100%; */
+    /* justify-content: flex-end; */
+    justify-content: space-between;
+    
+}
+
+.TextProperties2{
+  display: flex;
+  /* margin: 2em 2em; */
+}
+
+.BackgroundTextBox2{
+  display: flex;
+  background-color: rgb(0, 0, 0);
+   /* height: 60em;
+   width: 40em;   */
+  color: rgb(255, 255, 255);
+  padding: 2em 2em;
+  margin: 5em 5em;
+  justify-content: center;
+  align-items: center;
+}
+
+.TextProperties3{
+  display: flex;
+  font-size: 2rem;
+  flex-direction: column;
+  margin: 2em 1em;
+  font-size: 5rem;
+  font-weight: bold;
+}
